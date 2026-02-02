@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ceelx Beach Stay – Malindi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="overlay">
+    <h1>Ceelx Beach Stay</h1>
+    <p>Clean • Comfortable • Beach Fresh • Strong Wi-Fi</p>
+
+    <div class="box">
+      <label>Stay Type</label>
+      <select id="type" onchange="calculate()">
+        <option value="10">Single – $10/day</option>
+        <option value="15">Couple – $15/day</option>
+        <option value="20">Family – $20/day</option>
+      </select>
+
+      <label>Check-in</label>
+      <input type="date" id="checkin" onchange="calculate()">
+
+      <label>Check-out</label>
+      <input type="date" id="checkout" onchange="calculate()">
+
+      <p class="total">Total: $<span id="total">0</span></p>
+
+      <button onclick="payPayPal()">Pay with Visa / MasterCard / PayPal</button>
+      <button class="mpesa" onclick="payMpesa()">Pay with M-PESA</button>
+      <button class="whatsapp" onclick="bookWhatsApp()">Book via WhatsApp</button>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES TAB -->
+<section class="features">
+  <h2>Why Choose Us</h2>
+  <ul>
+    <li>🧹 Very clean & well maintained</li>
+    <li>🛋️ Modern living room & sofa set</li>
+    <li>📶 Strong FREE Wi-Fi</li>
+    <li>🌊 Close to Malindi Beach</li>
+    <li>🛡️ Safe, quiet & private</li>
+  </ul>
+</section>
+
+<!-- REACH OUT -->
+<footer>
+  <h3>Reach Out</h3>
+  <a href="https://wa.me/254743934502" target="_blank">WhatsApp</a>
+  <a href="https://instagram.com/ceelx16" target="_blank">Instagram</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
