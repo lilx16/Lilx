@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1615873968403-89e068629265") no-repeat center/cover;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.box {
+  background: rgba(255,255,255,0.15);
+  padding: 14px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 330px;
+  margin-top: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  text-align: left;
+  font-size: 13px;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 4px;
+}
+
+.total {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}.cards {
+  font-size: 12px;
+  margin-top: 6px;
+  opacity: 0.9;
+}
+
+button.mpesa {
+  background: #00a650;
+  color: white;
+}
+
+button.whatsapp {
+  background: #25D366;
+  color: white;
+}
+
+.features {
+  padding: 16px;
+  background: #f4f4f4;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+.features li {
+  margin-bottom: 6px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+footer a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+}
